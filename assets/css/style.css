@@ -9,5 +9,17 @@ h1 {
 img {
     width: 150px;
     height: auto;
-    
+    /* float: left; */
 }
+button{
+    margin: 10px;
+    background: #52e4f2;
+    color: white;
+    width: auto;
+    height: 30px;
+}
+body {
+    background: #eaebef;
+}
+
+
