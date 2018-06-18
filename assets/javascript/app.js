@@ -14,7 +14,7 @@ $("#submit-button").click(function(event){
     var search = $("#search-term").val().trim();
     gifList.push(search);
 
-    var QueryURL = "http://api.giphy.com/v1/gifs/search";
+    var QueryURL = "https://api.giphy.com/v1/gifs/search";
     QueryURL += '?' + $.param({
     'limit': 10,
     'api_key': "dJBEVywow51er4KCAp9ITnpl31KiCUAy",
